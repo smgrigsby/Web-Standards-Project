@@ -1,0 +1,109 @@
+/*BODY & BACKGROUND*****************************************/
+body {
+	background-color: #a5b3b4;
+	font: 1em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	max-width: 1024px; }
+	
+article, section {
+	background-color: #fff;
+	padding: 10px; }
+	
+#secondary_container {
+	width: 95%;
+	margin-left: 1%;
+	border-top: 20px solid #c0c7c0;
+	clear: both; } 
+	
+img {
+	max-width: 100%; }
+	
+footer {
+	clear: both; }
+
+/*HEADER****************************************************/
+h1 {
+	font: 40px Georgia, "Times New Roman", Times, serif;
+	margin-left: 20px; }
+	
+h2 {
+	font: 24px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	text-align: right;
+	margin-top: -50px;
+	margin-right: 60px; }
+	
+#header_img {
+	width: 95.703125%;
+	margin-left: 10px; } 	
+	
+/*NAVIGATION***********************************************/
+nav {
+	clear: both;
+	margin-top: -15px;
+	border: 1px solid #556669;
+	border-radius: 15px;
+	background-color: #556669;
+	padding: 1px 0;
+	width: 97.703125%%;
+	text-align: center; }
+	
+nav li {
+	display: inline;
+	padding-right: 50px; }
+	
+nav a, nav a:visited { 
+	text-decoration: none;
+	color: #c0c7c0; }	
+		
+nav a:hover, nav a:active {
+	color: #000;
+	background-color: #c0c7c0;
+	padding: 10px;
+	border-radius: 10px; }
+	
+/*HOMEPAGE SPECIFIC*****************************************/
+
+#top_left_container, #top_right_container {
+	float: left;
+	margin-top: -5px;
+	}
+	
+#top_left_container { width: 55%;
+margin-left: 10px; 
+ }
+#top_right_container { width: 33%;
+margin-left: 2.9296875%;  }
+		
+#church_img {
+	width: 87.272727272%;
+	margin: 10px 7.5%; }
+	
+/*CONTENT PAGES SPECIFIC************************************/
+#left_container, #right_container {
+	float: left;
+	margin: 40px 1%; }
+	
+#left_container { 
+	width: 60%;
+	 }
+	
+#right_container { 
+	width: 30%;
+	 }
+
+/*CONTACT PAGE SPECIFIC************************************/
+#form_left_container, #form_right_container {
+	float: left;
+	margin: 40px 1%;
+	border-top: 80px solid #c0c7c0; }
+	
+#form_left_container { width: 58%; }
+#form_right_container { width: 33%; }
+		
+
+/*COLOR GUIDE************************************************
+background:#a5b3b4;
+navigation bg: #556669;
+accent: #c0c7c0;
+************************************************************/

@@ -1,0 +1,73 @@
+/* Body *************************************************/
+
+	body {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1024px;
+		background-image: url("../images/bg_pattern.jpg");
+		font: 18px 'Ubuntu', sans-serif; }
+		
+	#container {
+		clear: both; 
+		background-color: #efefef;
+		padding: 20px;
+		border: 10px solid #dcdbdb; }	
+		
+/* Headers *************************************************/
+		
+	h1 { 
+		font: 25px'Syncopate', sans-serif;
+		float:left; }	
+		
+	h2 {
+		font: 20px 'Syncopate', sans-serif;
+		float: right; }
+		
+	h3 {
+		font-size: 20px;
+		margin: -10px 0 0 10px; }
+	
+	h4 { 
+		background-color: #dcdbdb;
+		padding: 5px 5px 5px 20px;
+		border-left: 10px solid #fa8f11; 
+		margin-top: 30px; }
+	
+	#new_color {
+		border-left: 10px solid #f9cd15; }
+		
+/* Navigation ***********************************************/
+	
+	a:link {color: #000; }
+	
+	a:visited {color: #444; }
+	
+	a:hover {color: #fa8f11; }
+	
+	a:active {color: #fff; }
+	
+/* Content ***************************************************/
+
+	.footnote {
+		font-size: 14px; }
+	
+	table { 
+		border-collapse: collapse;
+		border: 1px solid #444;
+		margin-bottom: 0; 
+		}
+	
+	td, th {
+		border: 1px solid #444;
+		padding: .25em;
+		}
+		
+	img {
+		padding: 20px;
+		border: none; }
+
+/* Footer ****************************************************/	
+
+	footer {
+		font-size: 12px;
+		margin-left: 20px; }
